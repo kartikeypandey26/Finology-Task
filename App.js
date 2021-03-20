@@ -8,7 +8,7 @@ import {price, month, durations, buttons} from './src/data';
 
 class App extends React.PureComponent {
   state = {
-    selectedDuration: 0,
+    selectedDuration: 3,
     prices: [],
     dates: [],
     startingDate: new Date(),
